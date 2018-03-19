@@ -38,3 +38,66 @@ var bmi = function(number1, number2) {
 var number1 = parseFloat(prompt("enter temp. in fahrenheit:"));
 var result = cel(number1);
 alert(result);
+
+
+// gallon to liter
+
+var gall = function(number1) {
+	return (number1 * 3.78541)
+};
+
+var number1 = parseFloat(prompt("enter number, in gallons:"));
+var result = gall(number1);
+alert(result);
+
+// liquid gallons to liquid liter
+
+var gall = function(number1) {
+	return (number1 * 3.78541)
+};
+
+var number1 = parseFloat(prompt("enter number, in Liquid gallons:"));
+var result = gall(number1);
+alert(result);
+
+// dry gallons to dry liter
+
+var gall = function(number1) {
+	return (number1 / 0.22702)
+};
+
+var number1 = parseFloat(prompt("enter number, in Dry gallons:"));
+var result = gall(number1);
+alert(result);
+
+// dry liter to gallons
+
+var lit = function(number1) {
+	return (3.78541 / number1 )
+};
+
+var number1 = parseFloat(prompt("enter number, in Dry liters:"));
+var result = lit(number1);
+alert(result);
+
+// liquid liters to gallons
+
+
+var lit = function(number1) {
+	return (3.78541 / number1 )
+};
+
+var number1 = parseFloat(prompt("enter number, in liquid liters:"));
+var result = lit(number1);
+alert(result);
+
+
+// dry liters to gallons
+
+var lit = function(number1) {
+	return (0.22702 * number1 )
+};
+
+var number1 = parseFloat(prompt("enter number, dry liters:"));
+var result = lit(number1);
+alert(result);
